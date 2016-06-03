@@ -1,2 +1,4 @@
 # ESP8266-ON-Lewei50.com
-you can config the paramerters to connect the www.lewei50.com and upload or get the sensor datas
+此代码基于ESP8266 SOC，开发环境为Arduino IDE1.6.7，SDK为1.5.1版本
+功能：基于网页配置的用于直连乐联网上传数据的程序。用户只需要配置好传感器信息即可通过串口实现对于数据的直接上传和GET。
+当前版本为1.0版本，暂时实现了数据的上传，下载已经留出接口。协议基于Http协议，大家可以根据自己使用的云平台，修改相关的代码来制作有关其他的云平台的固件或者基于本固件的多平台支持。
